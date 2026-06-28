@@ -17,6 +17,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
 const rateLimit = require('express-rate-limit');
+const path = require('path');
 require('dotenv').config();
 
 // Import route files
@@ -98,16 +99,8 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use('/api/', activityLogger);
 
 // ─────────────────────────────────────────────
-// Health Check & Root Routes
+// Health Check 
 // ─────────────────────────────────────────────
-app.get('/', (req, res) => {
-  res.json({
-    success: true,
-    message: 'Production Management System API is running successfully. Please use /api for endpoints.',
-    version: '1.0.0'
-  });
-});
-
 app.get('/api/health', (req, res) => {
   res.json({
     success: true,
@@ -179,7 +172,22 @@ app.post('/api/backup/import', authenticate, adminOnly, (req, res) => {
 });
 
 // ─────────────────────────────────────────────
-// 404 and Error Handlers (must be last!)
+// Serve React Frontend (Static Build)
+// ─────────────────────────────────────────────
+// The frontend build files will be located at ../frontend/dist
+const frontendPath = path.join(__dirname, '../frontend/dist');
+app.use(express.static(frontendPath));
+
+// For any route that is NOT /api, serve the React app (Client-side routing)
+app.get('*', (req, res, next) => {
+  if (req.path.startsWith('/api')) {
+    return next(); // Let the API 404 handler catch it
+  }
+  res.sendFile(path.join(frontendPath, 'index.html'));
+});
+
+// ─────────────────────────────────────────────
+// 404 and Error Handlers (for APIs)
 // ─────────────────────────────────────────────
 app.use(notFoundHandler);
 app.use(errorHandler);
