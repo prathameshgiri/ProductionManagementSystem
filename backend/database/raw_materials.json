@@ -1,0 +1,84 @@
+[
+  {
+    "id": "mat-001",
+    "materialId": "MAT-001",
+    "name": "Cold Rolled Steel Sheet",
+    "quantity": 800,
+    "unit": "kg",
+    "unitCost": 2.20,
+    "reorderLevel": 300,
+    "supplierId": "sup-001",
+    "supplierName": "MetalWorks Inc.",
+    "usageLog": [
+      { "date": "2024-06-01", "used": 50, "orderId": "ord-001", "note": "ORD-001 production run" },
+      { "date": "2024-06-05", "used": 80, "orderId": "ord-005", "note": "ORD-005 production run" }
+    ],
+    "status": "in_stock",
+    "lastUpdated": "2024-06-25T00:00:00.000Z",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "mat-002",
+    "materialId": "MAT-002",
+    "name": "Aluminum Ingot",
+    "quantity": 150,
+    "unit": "kg",
+    "unitCost": 3.50,
+    "reorderLevel": 200,
+    "supplierId": "sup-001",
+    "supplierName": "MetalWorks Inc.",
+    "usageLog": [
+      { "date": "2024-05-10", "used": 120, "orderId": "ord-002", "note": "ORD-002 production run" }
+    ],
+    "status": "low_stock",
+    "lastUpdated": "2024-06-20T00:00:00.000Z",
+    "createdAt": "2024-01-05T00:00:00.000Z"
+  },
+  {
+    "id": "mat-003",
+    "materialId": "MAT-003",
+    "name": "Stainless Steel Wire",
+    "quantity": 600,
+    "unit": "meters",
+    "unitCost": 0.90,
+    "reorderLevel": 200,
+    "supplierId": "sup-001",
+    "supplierName": "MetalWorks Inc.",
+    "usageLog": [],
+    "status": "in_stock",
+    "lastUpdated": "2024-06-15T00:00:00.000Z",
+    "createdAt": "2024-01-10T00:00:00.000Z"
+  },
+  {
+    "id": "mat-004",
+    "materialId": "MAT-004",
+    "name": "Nylon Pellets",
+    "quantity": 400,
+    "unit": "kg",
+    "unitCost": 1.80,
+    "reorderLevel": 150,
+    "supplierId": "sup-003",
+    "supplierName": "Polymer Solutions Ltd.",
+    "usageLog": [],
+    "status": "in_stock",
+    "lastUpdated": "2024-06-10T00:00:00.000Z",
+    "createdAt": "2024-02-01T00:00:00.000Z"
+  },
+  {
+    "id": "mat-005",
+    "materialId": "MAT-005",
+    "name": "Copper Bus Bar",
+    "quantity": 0,
+    "unit": "meters",
+    "unitCost": 12.00,
+    "reorderLevel": 50,
+    "supplierId": "sup-002",
+    "supplierName": "ElectroParts Co.",
+    "usageLog": [
+      { "date": "2024-04-20", "used": 30, "orderId": "ord-004", "note": "ORD-004 motor winding" }
+    ],
+    "status": "out_of_stock",
+    "lastUpdated": "2024-05-01T00:00:00.000Z",
+    "createdAt": "2024-02-15T00:00:00.000Z"
+  }
+]

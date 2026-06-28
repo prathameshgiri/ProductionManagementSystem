@@ -1,0 +1,79 @@
+[
+  {
+    "id": "notif-001",
+    "type": "low_stock",
+    "title": "Low Stock Alert",
+    "message": "Aluminum Sheet 2mm (INV-002) is below reorder level. Current: 80 sheets, Reorder at: 100",
+    "severity": "warning",
+    "isRead": false,
+    "relatedId": "inv-002",
+    "relatedModule": "inventory",
+    "createdAt": "2024-06-28T08:00:00.000Z"
+  },
+  {
+    "id": "notif-002",
+    "type": "low_stock",
+    "title": "Low Stock Alert",
+    "message": "Rubber Seal 50mm (INV-004) is critically low. Current: 30 pieces, Reorder at: 200",
+    "severity": "critical",
+    "isRead": false,
+    "relatedId": "inv-004",
+    "relatedModule": "inventory",
+    "createdAt": "2024-06-28T08:00:00.000Z"
+  },
+  {
+    "id": "notif-003",
+    "type": "machine_alert",
+    "title": "Machine Breakdown",
+    "message": "Assembly Robot #1 (MCH-007) has broken down. Motor failure - immediate attention required.",
+    "severity": "critical",
+    "isRead": false,
+    "relatedId": "mch-007",
+    "relatedModule": "machines",
+    "createdAt": "2024-06-26T14:30:00.000Z"
+  },
+  {
+    "id": "notif-004",
+    "type": "maintenance_alert",
+    "title": "Maintenance Due",
+    "message": "CNC Lathe #1 (MCH-002) scheduled maintenance is due on 2024-07-15.",
+    "severity": "info",
+    "isRead": true,
+    "relatedId": "mch-002",
+    "relatedModule": "machines",
+    "createdAt": "2024-06-25T09:00:00.000Z"
+  },
+  {
+    "id": "notif-005",
+    "type": "order_alert",
+    "title": "Urgent Production Order",
+    "message": "Production Order ORD-003 (Pneumatic Valve V-200) has URGENT priority. Start date: 2024-06-10.",
+    "severity": "warning",
+    "isRead": false,
+    "relatedId": "ord-003",
+    "relatedModule": "production",
+    "createdAt": "2024-06-05T10:00:00.000Z"
+  },
+  {
+    "id": "notif-006",
+    "type": "quality_alert",
+    "title": "Quality Inspection Failed",
+    "message": "2 units of Electric Motor 5kW (QC-003) failed winding fault inspection and were rejected.",
+    "severity": "critical",
+    "isRead": true,
+    "relatedId": "qc-003",
+    "relatedModule": "quality",
+    "createdAt": "2024-04-28T09:30:00.000Z"
+  },
+  {
+    "id": "notif-007",
+    "type": "low_stock",
+    "title": "Out of Stock Alert",
+    "message": "Copper Bus Bar (MAT-005) is completely out of stock. Production may be affected.",
+    "severity": "critical",
+    "isRead": false,
+    "relatedId": "mat-005",
+    "relatedModule": "raw_materials",
+    "createdAt": "2024-06-28T07:00:00.000Z"
+  }
+]

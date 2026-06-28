@@ -1,0 +1,71 @@
+[
+  {
+    "id": "user-001",
+    "name": "Prathamesh Giri",
+    "email": "admin@prathameshgiri.in",
+    "password": "$2b$12$LWdM5NvrkiPJ10DrSPbpHez8Xi524WCLQ.DB7zVWoT2aomBJ/QI9a",
+    "role": "admin",
+    "phone": "+91-9876543210",
+    "department": "Management",
+    "avatar": "",
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "lastLogin": "2026-06-28T11:16:44.089Z",
+    "updatedAt": "2026-06-28T11:16:44.089Z"
+  },
+  {
+    "id": "user-002",
+    "name": "Ramesh Verma",
+    "email": "manager@prathameshgiri.in",
+    "password": "$2b$12$LWdM5NvrkiPJ10DrSPbpHez8Xi524WCLQ.DB7zVWoT2aomBJ/QI9a",
+    "role": "production_manager",
+    "phone": "+91-9876543211",
+    "department": "Production",
+    "avatar": "",
+    "status": "active",
+    "createdAt": "2024-01-15T00:00:00.000Z",
+    "lastLogin": "2026-06-28T11:11:26.491Z",
+    "updatedAt": "2026-06-28T11:11:26.491Z"
+  },
+  {
+    "id": "user-003",
+    "name": "Suresh Kumar",
+    "email": "employee@prathameshgiri.in",
+    "password": "$2b$12$LWdM5NvrkiPJ10DrSPbpHez8Xi524WCLQ.DB7zVWoT2aomBJ/QI9a",
+    "role": "employee",
+    "phone": "+91-9876543212",
+    "department": "Assembly",
+    "avatar": "",
+    "status": "active",
+    "createdAt": "2024-02-01T00:00:00.000Z",
+    "lastLogin": "2024-06-01T07:30:00.000Z",
+    "updatedAt": "2026-06-28T11:03:09.623Z"
+  },
+  {
+    "id": "user-004",
+    "name": "Amit Singh",
+    "email": "quality@prathameshgiri.in",
+    "password": "$2b$12$LWdM5NvrkiPJ10DrSPbpHez8Xi524WCLQ.DB7zVWoT2aomBJ/QI9a",
+    "role": "quality_inspector",
+    "phone": "+91-9876543213",
+    "department": "Quality Control",
+    "avatar": "",
+    "status": "active",
+    "createdAt": "2024-02-15T00:00:00.000Z",
+    "lastLogin": "2024-06-01T08:30:00.000Z"
+  },
+  {
+    "id": "user-005",
+    "name": "Neha Sharma",
+    "email": "warehouse@prathameshgiri.in",
+    "password": "$2b$12$LWdM5NvrkiPJ10DrSPbpHez8Xi524WCLQ.DB7zVWoT2aomBJ/QI9a",
+    "role": "warehouse_manager",
+    "phone": "+91-9876543214",
+    "department": "Warehouse",
+    "avatar": "",
+    "status": "active",
+    "createdAt": "2024-03-01T00:00:00.000Z",
+    "lastLogin": "2024-06-01T07:00:00.000Z",
+    "updatedAt": "2026-06-28T11:01:43.296Z"
+  }
+]

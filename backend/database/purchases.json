@@ -1,0 +1,90 @@
+[
+  {
+    "id": "po-001",
+    "purchaseId": "PO-001",
+    "supplierId": "sup-001",
+    "supplierName": "MetalWorks Inc.",
+    "items": [
+      { "itemId": "inv-001", "itemName": "Steel Rod 20mm", "quantity": 1000, "unitCost": 1.80, "total": 1800.00 },
+      { "itemId": "inv-013", "itemName": "Stainless Steel Pipe 1 inch", "quantity": 200, "unitCost": 15.00, "total": 3000.00 }
+    ],
+    "totalAmount": 4800.00,
+    "status": "received",
+    "requestedBy": "user-005",
+    "approvedBy": "user-001",
+    "expectedDelivery": "2024-05-15T00:00:00.000Z",
+    "grnDate": "2024-05-14T00:00:00.000Z",
+    "notes": "Monthly steel stock replenishment",
+    "createdAt": "2024-05-01T00:00:00.000Z"
+  },
+  {
+    "id": "po-002",
+    "purchaseId": "PO-002",
+    "supplierId": "sup-002",
+    "supplierName": "ElectroParts Co.",
+    "items": [
+      { "itemId": "inv-003", "itemName": "Copper Wire 2.5mm", "quantity": 2000, "unitCost": 0.85, "total": 1700.00 },
+      { "itemId": "inv-011", "itemName": "Circuit Breaker 20A", "quantity": 100, "unitCost": 22.00, "total": 2200.00 }
+    ],
+    "totalAmount": 3900.00,
+    "status": "approved",
+    "requestedBy": "user-005",
+    "approvedBy": "user-001",
+    "expectedDelivery": "2024-07-05T00:00:00.000Z",
+    "grnDate": null,
+    "notes": "Electrical components replenishment",
+    "createdAt": "2024-06-20T00:00:00.000Z"
+  },
+  {
+    "id": "po-003",
+    "purchaseId": "PO-003",
+    "supplierId": "sup-004",
+    "supplierName": "FastenerPro Global",
+    "items": [
+      { "itemId": "inv-006", "itemName": "M8 Hex Bolts (Box)", "quantity": 200, "unitCost": 12.00, "total": 2400.00 }
+    ],
+    "totalAmount": 2400.00,
+    "status": "requested",
+    "requestedBy": "user-005",
+    "approvedBy": null,
+    "expectedDelivery": "2024-07-10T00:00:00.000Z",
+    "grnDate": null,
+    "notes": "Fastener stock replenishment - urgent",
+    "createdAt": "2024-06-25T00:00:00.000Z"
+  },
+  {
+    "id": "po-004",
+    "purchaseId": "PO-004",
+    "supplierId": "sup-005",
+    "supplierName": "HydroTech Supplies",
+    "items": [
+      { "itemId": "inv-007", "itemName": "Hydraulic Hose 12mm", "quantity": 500, "unitCost": 8.50, "total": 4250.00 },
+      { "itemId": "inv-014", "itemName": "Coolant Fluid 10L", "quantity": 60, "unitCost": 32.00, "total": 1920.00 }
+    ],
+    "totalAmount": 6170.00,
+    "status": "ordered",
+    "requestedBy": "user-005",
+    "approvedBy": "user-001",
+    "expectedDelivery": "2024-07-15T00:00:00.000Z",
+    "grnDate": null,
+    "notes": "Hydraulics maintenance stock",
+    "createdAt": "2024-06-10T00:00:00.000Z"
+  },
+  {
+    "id": "po-005",
+    "purchaseId": "PO-005",
+    "supplierId": "sup-003",
+    "supplierName": "Polymer Solutions Ltd.",
+    "items": [
+      { "itemId": "inv-004", "itemName": "Rubber Seal 50mm", "quantity": 1000, "unitCost": 2.50, "total": 2500.00 }
+    ],
+    "totalAmount": 2500.00,
+    "status": "cancelled",
+    "requestedBy": "user-003",
+    "approvedBy": null,
+    "expectedDelivery": "2024-06-30T00:00:00.000Z",
+    "grnDate": null,
+    "notes": "Cancelled - found alternative supplier",
+    "createdAt": "2024-06-05T00:00:00.000Z"
+  }
+]

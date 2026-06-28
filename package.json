@@ -1,0 +1,16 @@
+{
+  "name": "production-management-system",
+  "version": "1.0.0",
+  "description": "Full-Stack Production Management System for Manufacturing Companies",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "author": "Production Management System",
+  "license": "MIT"
+}

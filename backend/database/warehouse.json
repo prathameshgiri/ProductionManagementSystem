@@ -1,0 +1,41 @@
+[
+  {
+    "id": "wh-001",
+    "warehouseId": "WH-001",
+    "name": "Main Warehouse",
+    "location": "Building A, Floor 1",
+    "manager": "emp-004",
+    "managerName": "Emily Johnson",
+    "capacity": 5000,
+    "usedCapacity": 3200,
+    "status": "active",
+    "type": "raw_materials",
+    "createdAt": "2021-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "wh-002",
+    "warehouseId": "WH-002",
+    "name": "Finished Goods Warehouse",
+    "location": "Building B, Floor 1",
+    "manager": "emp-009",
+    "managerName": "Tom Bradley",
+    "capacity": 3000,
+    "usedCapacity": 1800,
+    "status": "active",
+    "type": "finished_goods",
+    "createdAt": "2021-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "wh-003",
+    "warehouseId": "WH-003",
+    "name": "Spare Parts Store",
+    "location": "Building C, Floor 1",
+    "manager": "emp-005",
+    "managerName": "David Kim",
+    "capacity": 1000,
+    "usedCapacity": 450,
+    "status": "active",
+    "type": "spare_parts",
+    "createdAt": "2022-06-01T00:00:00.000Z"
+  }
+]
