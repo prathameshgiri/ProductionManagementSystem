@@ -98,8 +98,16 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use('/api/', activityLogger);
 
 // ─────────────────────────────────────────────
-// Health Check
+// Health Check & Root Routes
 // ─────────────────────────────────────────────
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'Production Management System API is running successfully. Please use /api for endpoints.',
+    version: '1.0.0'
+  });
+});
+
 app.get('/api/health', (req, res) => {
   res.json({
     success: true,
@@ -190,8 +198,8 @@ app.listen(PORT, () => {
   console.log('╚════════════════════════════════════════════╝');
   console.log('');
   console.log('  Default Admin Login:');
-  console.log('    Email:    admin@factory.com');
-  console.log('    Password: Admin@123');
+  console.log('    Email:    admin@prathameshgiri.in');
+  console.log('    Password: Prathamesh@123');
   console.log('');
 });
 
