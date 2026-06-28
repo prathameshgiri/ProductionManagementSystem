@@ -70,6 +70,19 @@ The application will now be running at:
 
 ---
 
+## 🔑 Demo Credentials
+
+To access different role-based dashboards, use the following credentials:
+
+| Role | Email | Password |
+|------|-------|----------|
+| **Admin** | `admin@prathameshgiri.in` | `Prathamesh@123` |
+| **Manager** | `manager@prathameshgiri.in` | `Prathamesh@123` |
+| **Employee** | `employee@prathameshgiri.in` | `Prathamesh@123` |
+| **Warehouse**| `warehouse@prathameshgiri.in` | `Prathamesh@123` |
+
+---
+
 ## 📂 File Structure
 
 ```text
